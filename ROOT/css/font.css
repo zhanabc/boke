@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 3316266 */
+  src: url('');
+  src: url('?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_3316266_nwlcc4rkqb.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_3316266_nwlcc4rkqb.woff') format('woff'),
+  url('//at.alicdn.com/t/font_3316266_nwlcc4rkqb.ttf') format('truetype'),
+  url('#iconfont') format('svg');
+}

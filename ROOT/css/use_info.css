@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+body {
+    background-color: #F5F6F7;
+}
+.box {
+    width: 60%;
+    height: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.box input {
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.box input:focus {
+    border-bottom: 3px solid #7CFC00;
+}
+.box .sex {
+    width: 20px;
+    height: 20px;
+}
+.box .first_box {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    background-color: #FCFCFC;
+}
+.box .first_box::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:#F5F6F7;
+    left: 10px;
+    top: 20px;
+}
+.box .second_box {
+    width: 100%;
+    height:30%;
+    background-color: #FCFCFC;
+}
+.box  .second_box ul {
+    width: 100%;
+    height:85%;
+    margin-top: 3%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.box .second_box ul li {
+    flex: 1;
+    line-height: 100%;
+}
+.box .third_box ul {
+    width: 100%;
+    height:80%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.box  .third_box ul li {
+    flex: 1;
+    line-height: 50px;
+}
+.box .four_box ul {
+    width: 100%;
+    height:80%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.box .four_box ul li {
+    flex: 1;
+    line-height: 50px;
+}
+.box  .third_box {
+    width: 100%;
+    height:20%;
+    background-color: #FCFCFC;
+}
+.box .four_box {
+    width: 100%;
+    height:20%;
+    background-color: #FCFCFC;
+}
+
+.box .usename {
+    width: 70px;
+    height: 30px;
+    background-color: #00FFFF;
+    position: absolute;
+    left: 130px;
+    top: 70px;
+}
+.title1 {
+    width: 100%;
+    height: 12%;
+    border-bottom: 1px solid #000000;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.title {
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid #000000;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+form .sumbit {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+}
+form .sumbit input {
+    width: 100px;
+    height: 50px;
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+}
+.age {
+    width: 60px;
+    height: 20px;
+}

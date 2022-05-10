@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.log_text{
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px auto;
+    color:#fddb92;
+    font-size: 50px;
+    font-weight: 700;
+}
+.big_box {
+    z-index: 100;
+    width: 60%;
+    height: 600px;
+    margin: 50px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.log_in{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    float: left;
+    transition: width 2s;
+    text-align: center;
+    background-color: rgba(60,50,40,.5);
+}
+.log_on{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    float: left;
+    left: 50%;
+    text-align: center;
+    background-color: rgba(.6,.3,.7,.5);
+}
+.text1{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    line-height: 80px;
+    font-size: large;
+    font-weight: 700;
+    color: darkgray;
+}
+.text2{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    line-height: 80px;
+    font-size: large;
+    font-weight: 700;
+    color: darkgray;
+}
+.log_in form .usename {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.log_in form .usename input {
+    width: 220px;
+    height: 40px;
+    border:none;
+    font-size: 20px;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.log_on form .usename{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+.log_on form .usename input{
+    width: 220px;
+    height: 40px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.big_box form .icon{
+    font-size: large;
+    font-weight: 600;
+    color: white
+}
+.big_box form .password {
+    margin-bottom: 40px;
+
+}
+.big_box form .password input {
+    width: 220px;
+    height: 40px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.big_box .log_in form .confire_password input {
+    width: 220px;
+    height: 40px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+.big_box .log_in form .confire_password {
+    margin-bottom: 10px;
+}
+.big_box .log_on form .deng {
+    width: 100px;
+    height: 40px;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+.big_box .log_in form .zhu {
+    width: 100px;
+    height: 40px;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}

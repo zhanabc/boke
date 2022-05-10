@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+}
+.nave {
+    width: 100%;
+    height: 50px;
+    top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+.nave .before {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.nave ul li {
+    list-style: none;
+    width: 17%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    background-blend-mode: normal, lighten, soft-light;
+    cursor: default;
+}
+.nave ul .iconfont {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.nave .seach {
+    width: 200px;
+    height: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: 1%;
+    position: relative;
+}
+.nave .seach input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid darkgray;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    overflow: hidden;
+    outline: none;
+}
+.nave .seach span {
+    width: 10px;
+    height: 10px;
+    background-color: #00FFFF;
+
+}
+.nave .after {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.nave .after .log {
+    margin-top: 1%;
+    width: 80px;
+    height: 40px;
+    z-index: 10;
+    border-radius: 20%;
+    line-height: 40px;
+    cursor: default;
+}
+.nave .after .image:hover .about_use{
+    display: block;
+}
+.nave .after .writer {
+    margin-top: 3%;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+    background-color:orange;
+    cursor: pointer;
+}
+.userinfo {
+    display: none;
+}
+.userinfo ul li i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.point{
+    background-color: lawngreen;
+}
+.userinfo {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000000;
+    position: absolute;
+    top: 50px;
+    right:17%;
+    display: none;
+    background-color: #F0F8FF;
+    z-index: 100;
+}
+.userinfo .name{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.nave .after .userinfo ul {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+.nave .after .userinfo ul li {
+    flex: 1;
+    height: 30px;
+    width: 100%;
+    line-height: 50px;
+}
+.nave .after .userinfo ul li:hover{
+    background-color: #CCCCCC;
+}
